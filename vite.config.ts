@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/unlearnai-landing-page/",   // 👈 your repo name
+  base: "/unlearnai/",   // 👈 your repo name
   build: {
     outDir: "docs",                   // 👈 GitHub Pages will serve from docs/
   },
